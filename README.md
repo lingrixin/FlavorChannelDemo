@@ -1,0 +1,2 @@
+# FlavorChannelDemo
+用于演示如何使用ProductFlavor去构建渠道包
