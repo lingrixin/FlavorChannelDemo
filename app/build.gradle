@@ -34,7 +34,7 @@ android {
         versionCode 1
         versionName "1.0"
         flavorDimensions "versionCode"
-        manifestPlaceholders = [my_CHANNEL: "default"]
+        manifestPlaceholders = [CHANNEL: "default"]
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
@@ -52,11 +52,11 @@ android {
 
     productFlavors {
         "YingYongBao" {
-            manifestPlaceholders = [my_CHANNEL: "YingYongBao"]
+            manifestPlaceholders = [CHANNEL: "YingYongBao"]
         }
         //为什么不用360，因为读meta-data读数字和读字符串不通用，处理太麻烦
         "qihoo" {
-            manifestPlaceholders = [my_CHANNEL: "qihoo"]
+            manifestPlaceholders = [CHANNEL: "qihoo"]
         }
     }
 }
